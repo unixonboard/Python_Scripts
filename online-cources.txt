@@ -1,0 +1,11 @@
+Here are all the top python coding resources below:
+
+    1. Clever Programmer
+    2. Udacity
+    3. Coursera
+    4. Edx
+    5. Team Tree House
+    6. Udemy (Build Projects)
+    7. Free Code Camp (Web Development)
+    8. Solo Learn (Phone App)
+    9. Codecademy
