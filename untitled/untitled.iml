@@ -1,9 +1,155 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="PYTHON_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+/**
+	 * Generate the new token for first request and return the same for the
+	 * subsequent requests.
+	 *
+	 * @return String
+	 */
+	public String getToken() {
+		Date checkPointTime = new Date() ;
+		Calendar cal;
+		try {
+			dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+			cal = Calendar.getInstance();
+			String dateTimeStart = dateFormat.format(cal.getTime());
+
+			checkPointTime = dateFormat.parse(dateTimeStart);
+			if (StringUtils.isEmpty(lastGeneratedTime)) {
+				cal = Calendar.getInstance();
+				cal.add(Calendar.HOUR, 7);
+				String dateTimeStop = dateFormat.format(cal.getTime());
+				lastGeneratedTime = dateFormat.parse(dateTimeStop);
+			}
+
+		} catch (Exception e) {
+			LOGGER.error("SspUtil : getToken() : Exception:", e);
+			token = null;
+		}
+		if (token == null) {
+			token = authTokenService.getAuthToken();
+		}
+		if(checkPointTime.compareTo(lastGeneratedTime) >= 0){
+			token = authTokenService.getAuthToken();
+			cal = Calendar.getInstance();
+			cal.add(Calendar.HOUR, 7);
+			String dateTimeStop = dateFormat.format(cal.getTime());
+			try {
+				lastGeneratedTime = dateFormat.parse(dateTimeStop);
+			} catch (ParseException e) {
+				LOGGER.error("SspUtil : getToken() : ParseException:", e);
+			}
+
+		}
+		return token;
+	}
+
+	Connection code
+
+	private Map<String, String> cstIncServiceReqInputs() {
+		String strTmp;
+		Map<String, String> cstIncMap = new HashMap<String, String>();
+		SimpleDateFormat ft = new SimpleDateFormat(CMDWConstants.SIMPLE_DATE_FORMAT_ESP);
+		strTmp = ft.format(new Date());
+
+		cstIncMap.put(CMDWConstants.CONSUMER_IP, CommonUtility.getHostAddress()); //consumer.ip.value = 127.0.0.1
+		cstIncMap.put(CMDWConstants.GRAND_PRIX_CONFIGURATION_KEY, ApplicationProperties.getInstance().getString(CMDWConstants.GRAND_PRIX_CONFIGURATION_VALUE));
+		//grand.prix.configuration.value
+		cstIncMap.put(CMDWConstants.GRAND_PRIX_CALLING_APP_KEY, ApplicationProperties.getInstance().getString(CMDWConstants.GRAND_PRIX_CALLING_APP_VALUE));
+		//grand.prix.calling.app.value
+		cstIncMap.put(CMDWConstants.GRAND_PRIX_ENVIRONMENT_KEY, ApplicationProperties.getInstance().getString(CMDWConstants.GRAND_PRIX_ENVIRONMENT_VALUE));
+		//grand.prix.environment.value = UAT
+
+		String title, description, timeLag, impact, urgency;
+		if (centralStationParameters.getTitle() == null || centralStationParameters.getTitle().isEmpty()) {
+			title = "";
+		} else {
+			title = centralStationParameters.getTitle();
+		}
+		cstIncMap.put(CMDWConstants.GRAND_PRIX_TITLE, title);
+
+		if (centralStationParameters.getDescription() == null || centralStationParameters.getDescription().isEmpty()) {
+			description = "";
+		} else {
+			description = centralStationParameters.getDescription();
+		}
+		cstIncMap.put(CMDWConstants.GRAND_PRIX_DESCRIPTION, description);
+
+		if (centralStationParameters.getTimelag() == null || centralStationParameters.getTimelag().isEmpty()) {
+			timeLag = "";
+		} else {
+			timeLag = centralStationParameters.getTimelag();
+		}
+		if (centralStationParameters.getImpact() == null || centralStationParameters.getImpact().isEmpty()) {
+			impact = "";
+		} else {
+			impact = centralStationParameters.getImpact();
+		}
+		if (centralStationParameters.getUrgency() == null || centralStationParameters.getUrgency().isEmpty()) {
+			urgency = "";
+		} else {
+			urgency = centralStationParameters.getUrgency();
+		}
+
+		cstIncMap.put(CMDWConstants.GRAND_PRIX_TIME_LAG_KEY, timeLag);
+		cstIncMap.put(CMDWConstants.GRAND_PRIX_IMPACT, impact);
+		cstIncMap.put(CMDWConstants.GRAND_PRIX_URGENCY, urgency);
+
+		return cstIncMap;
+	}
+
+
+Calling the API code.
+	private String getCstIncidentNumber() {
+
+		String authToken = null;
+		final String callerService = ApplicationProperties.getInstance().getString(CMDWConstants.GRAND_PRIX_SERVICE);
+		//grand.prix.service
+		final String operationName = ApplicationProperties.getInstance().getString(CMDWConstants.GRAND_PRIX_SERVICE_OPERATION);
+		//grand.prix.service.operation
+		Map<String, String> inCstIncidentMap = null;
+		StringWriter reqJson = new StringWriter();
+		String incidentNumber = null;
+
+		if (cstTicketServiceConfig == null) {
+			LOGGER.error("CMDWCstTicketServiceImpl : cstTicketServiceConfig template : Error Occured : Failed to load CstTicketTemplate Service Request Template.");
+		}
+
+		try {
+			authToken = sspUtil.getToken();
+			if (!authToken.isEmpty() && !authToken.contains(CMDWConstants.SSP_ERROR_CODE)) {
+				final HttpHeaders headers = CommonUtility.setHttpHeaders(authToken, callerService, operationName);
+
+				restTemplate = new RestTemplate();
+
+				inCstIncidentMap = cstIncServiceReqInputs();
+				cstTicketServiceTemplate.process(inCstIncidentMap, reqJson);
+
+				HttpEntity<String> requestToIncidentNumber = new HttpEntity<String>(reqJson.toString(), headers);
+
+				String cstIncidentResponse = restTemplate.postForObject(ApplicationProperties.getInstance().getString(CMDWConstants.STRATOS_END_POINT_URL),
+						requestToIncidentNumber, String.class);
+				//stratos.end.point.url
+				String jsonResponse = new JSONObject(cstIncidentResponse).getJSONObject("EspServiceResponse")
+						.getJSONObject("espResponseHeader").getString("statusCD");
+				if (jsonResponse != null && !jsonResponse.isEmpty()
+						&& jsonResponse.equals(CMDWConstants.SSP_STATUS_CD)) {
+
+					JSONObject json = new JSONObject(cstIncidentResponse).getJSONObject("EspServiceResponse")
+							.getJSONObject("espResponsePayload").getJSONObject("body")
+							.getJSONObject("createTicketResponse").getJSONObject("createTicketResponseType");
+					incidentNumber = json.getString("ticketId");
+				} else {
+					incidentNumber = new JSONObject(cstIncidentResponse).getJSONObject("EspServiceResponse")
+							.getJSONObject("espResponseHeader").getString("exceptionID");
+				}
+			} else {
+				incidentNumber = authToken;
+			}
+		} catch (TemplateException | IOException | JSONException e) {
+			LOGGER.error("CMDWCstTicketServiceImpl : getCstIncidentNumber() : TemplateException | IOException | JSONException {}  :::", e);
+		} catch (Exception e) {
+			LOGGER.error("CMDWCstTicketServiceImpl : getCstIncidentNumber() : Exception {}  :::", e);
+		}
+
+		return incidentNumber;
+
+	}
