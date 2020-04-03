@@ -1,4 +1,4 @@
-sp=1500
+sp=15
 cp=1500
 if (sp>cp):
     print ("profit")
@@ -7,4 +7,4 @@ elif (cp>sp):
     print("lost")
     print ("Loss is ",cp-sp )
 else:
-    print ("No profit or Loss")       
+    print ("No profit or Loss")

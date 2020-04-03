@@ -27,7 +27,7 @@
 # test(a)
 # print(a)
 
-#Global Variable update inside the function
+# Global Variable update inside the function
 # twx=100
 # def test():
 #     global twx
@@ -37,5 +37,12 @@
 # test()
 # print(twx)
 
-#Module
+# Module
 
+import sys
+
+print(sys.version)
+print(sys.executable)
+
+r = requests.get('https://coreyms.com')
+print(r.status_code)
