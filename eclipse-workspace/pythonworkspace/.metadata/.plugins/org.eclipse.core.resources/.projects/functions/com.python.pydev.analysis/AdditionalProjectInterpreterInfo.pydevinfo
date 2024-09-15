@@ -1,0 +1,93 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/Users/thnanda/eclipse-workspace/pythonworkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/functions/com.python.pydev.analysis/v2_indexcache
+average|1708956973471630257|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/average.py
+funasparameter|1709352589732089453|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/funasparameter.py
+keywords|1709695469981972496|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/keywords.py
+doubleusingmap|1709513266775949027|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/doubleusingmap.py
+testsuite|1709672134579896742|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/testsuite.py
+usesmodule|1709698621323276080|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/usesmodule.py
+doubledecor|1709523273524904442|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/doubledecor.py
+factorial|1709406008049638765|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/factorial.py
+greeting|1709352505581957783|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/greeting.py
+mymath|1709696238732372711|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/mymath.py
+returnfunc|1709360093255026333|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/returnfunc.py
+stringdecor|1709693903206931611|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/stringdecor.py
+cubelambda|1709511921910945430|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/cubelambda.py
+optionalargsdemo|1709510916083609018|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/optionalargsdemo.py
+listfun|1709360230649350512|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/listfun.py
+sumusingreduce|1709516381161458672|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/sumusingreduce.py
+calc|1708957255421082591|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/calc.py
+evenoddfilter|1709512981579045242|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/evenoddfilter.py
+evenoroddlambada|1709512019168521792|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/evenoroddlambada.py
+chaindecor|1709694547659657718|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/chaindecor.py
+custoemgenerator|1709695469974525872|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/custoemgenerator.py
+bmi|1709413408793782478|/Users/thnanda/eclipse-workspace/pythonworkspace/functions/bmi.py
+-- END DISKCACHE
+-- START DICTIONARY
+38
+2=average
+31=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/doubleusingmap.py
+21=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/cubelambda.py
+29=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/sumusingreduce.py
+32=doubleusingmap
+15=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/greeting.py
+16=greeting
+24=factorial
+20=returnfunc
+12=stringdecor
+35=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/optionalargsdemo.py
+19=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/returnfunc.py
+25=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/listfun.py
+30=sumusingreduce
+28=chaindecor
+33=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/evenoddfilter.py
+18=funasparameter
+38=testsuite
+10=doubledecor
+9=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/doubledecor.py
+14=mymath
+27=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/chaindecor.py
+13=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/mymath.py
+11=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/stringdecor.py
+23=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/factorial.py
+37=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/testsuite.py
+5=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/calc.py
+22=cubelambda
+36=optionalargsdemo
+26=listfun
+17=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/funasparameter.py
+3=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/bmi.py
+6=calc
+34=evenoddfilter
+7=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/custoemgenerator.py
+8=custoemgenerator
+1=/Users/thnanda/eclipse-workspace/pythonworkspace/functions/average.py
+4=bmi
+-- END DICTIONARY
+-- START TREE 1
+20
+ave|1|average!1^8#5*18@
+cal|2|calculateBMI!3^1#5*34@calc!5^1#5*50@
+cus|1|customgen!7^1#5*66@
+dec|2|decor!9^15#5*82@decorfun!11^1#5*98@
+dif|1|diff!13^9#5*114@
+dis|3|display!15^1#5*130@display!17^1#5*146@display!19^1#5*162@
+f|1|f!21^6#1*179@
+fac|1|factorial!23^1#5*194@
+fun|2|fun!25^1#5*210@fun!19^5#1*163@
+hal|1|half!27^8#5*226@
+hel|1|hello!11^9#5*98@
+lst|3|lst!29^3#1*243@lst!31^2#1*259@lst!33^1#1*275@
+my_|1|my_fun2!35^45#5*290@
+myf|1|myfun!35^35#5*290@
+nam|1|name!17^3#5*146@
+num|2|num!9^22#5*82@num!27^18#5*226@
+res|5|result!31^4#1*259@result!5^8#1*51@result!1^11#1*19@result!33^3#1*275@result!29^4#1*243@
+squ|1|square!27^1#5*226@
+sum|1|sum!13^6#5*114@
+tim|1|time_fetch!37^4#5*306@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

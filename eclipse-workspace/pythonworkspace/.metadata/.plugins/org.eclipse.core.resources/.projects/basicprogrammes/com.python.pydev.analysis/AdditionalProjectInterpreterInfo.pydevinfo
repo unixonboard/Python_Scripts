@@ -1,0 +1,28 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/Users/thnanda/eclipse-workspace/pythonworkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/basicprogrammes/com.python.pydev.analysis/v2_indexcache
+averageofnumbers|1707418119159783885|/Users/thnanda/eclipse-workspace/pythonworkspace/basicprogrammes/averageofnumbers.py
+cercleradius|1707599878793037129|/Users/thnanda/eclipse-workspace/pythonworkspace/basicprogrammes/cercleradius.py
+studentdetails|1707416817075674789|/Users/thnanda/eclipse-workspace/pythonworkspace/basicprogrammes/studentdetails.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+1=/Users/thnanda/eclipse-workspace/pythonworkspace/basicprogrammes/cercleradius.py
+4=averageofnumbers
+2=cercleradius
+3=/Users/thnanda/eclipse-workspace/pythonworkspace/basicprogrammes/averageofnumbers.py
+5=/Users/thnanda/eclipse-workspace/pythonworkspace/basicprogrammes/studentdetails.py
+6=studentdetails
+-- END DICTIONARY
+-- START TREE 1
+6
+are|1|area!1^5#1*19@
+avg|1|avg!3^2#1*35@
+mar|1|marks!5^3#1*51@
+nam|1|name!5^2#1*51@
+r|1|r!1^4#1*19@
+stu|1|studentID!5^1#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,62 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/Users/thnanda/eclipse-workspace/pythonworkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/assignment/com.python.pydev.analysis/v2_indexcache
+charreversal|1708808875100275561|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/charreversal.py
+wordreversal|1708383650709086181|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/wordreversal.py
+stringreversal|1708380706768716135|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/stringreversal.py
+grading|1707601767990377691|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/grading.py
+whiledemo|1707664569129136765|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/whiledemo.py
+countthecaracter|1708813792536164539|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/countthecaracter.py
+loopsassignment|1707971524816684653|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/loopsassignment.py
+atm|1708819890582399945|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/atm.py
+findallpositions|1708815269195810703|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/findallpositions.py
+removeduplicate|1708400548833993441|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/removeduplicate.py
+pyramidpattern|1708813902799085756|/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/pyramidpattern.py
+-- END DISKCACHE
+-- START DICTIONARY
+20
+8=charreversal
+1=/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/atm.py
+11=/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/whiledemo.py
+13=/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/loopsassignment.py
+20=stringreversal
+4=grading
+18=removeduplicate
+10=wordreversal
+7=/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/charreversal.py
+3=/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/grading.py
+12=whiledemo
+19=/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/stringreversal.py
+15=/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/pyramidpattern.py
+14=loopsassignment
+17=/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/removeduplicate.py
+5=/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/findallpositions.py
+2=atm
+6=findallpositions
+16=pyramidpattern
+9=/Users/thnanda/eclipse-workspace/pythonworkspace/assignment/wordreversal.py
+-- END DICTIONARY
+-- START TREE 1
+18
+acc|1|acctbalance!1^2#1*19@
+avg|1|avg!3^3#1*35@
+dep|1|deposit!1^14#9*19@
+fou|1|found!5^5#1*51@
+i|3|i!7^11#1*67@i!9^6#1*83@i!11^3#1*99@
+len|1|lenth!5^7#1*51@
+n|2|n!13^27#1*115@n!15^3#1*131@
+op|1|op!17^11#1*147@
+out|2|output1!7^18#1*67@output!9^15#1*83@
+pos|1|pos!5^6#1*51@
+res|2|result!7^9#1*67@result!9^5#1*83@
+s|5|s!19^20#1*163@s!5^2#1*51@s!17^1#1*147@s!9^2#1*83@s!7^2#1*67@
+sub|1|subs!5^4#1*51@
+tem|3|temp!7^4#1*67@temp!9^3#1*83@temp!17^3#1*147@
+uin|1|uinpt!1^4#1*19@
+wit|1|withdraw!1^10#9*19@
+x|1|x!11^1#1*99@
+y|1|y!11^2#1*99@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

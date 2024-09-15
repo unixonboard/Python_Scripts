@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;assignment/loops-assignment.py&apos; to &apos;loopsassignment.py&apos;" description="Rename resource &apos;loops-assignment.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="loops-assignment.py" name="loopsassignment.py" stamp="1707968778054" updateReferences="true"/>
+</session>

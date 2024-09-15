@@ -1,0 +1,773 @@
+
+[    
+      {
+        "id": "1648NM1861",
+        "hostAndPort": "flamingo-preprod-load-balancer-02470.node.ad2.r1:12000",
+        "substrateIp": "10.241.40.66",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-1",
+        "allocated": 100,
+        "newCapacity": 240000,
+        "newAllocated": 100,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=newlyingesteddonotuse, operation=markForRemoval, when=2024-03-11T01:32:41.156Z[UTC], who=weishyan}",
+        "hostName": "flamingo-preprod-load-balancer-02470.node.ad2.r1",
+        "hostType": "x5.enclave4-72",
+        "maxVnic": 126,
+        "allocatedVnic": 1,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.40.66",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 100
+              },
+              "vnicCapacity": {
+                "maxCapacity": 126,
+                "allocatedCapacity": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1716NM18TY",
+        "hostAndPort": "flamingo-preprod-load-balancer-02392.node.ad2.r1:12000",
+        "substrateIp": "10.241.73.66",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 23392,
+        "newCapacity": 900000,
+        "newAllocated": 23392,
+        "capacity": 65536,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=IPV6 testing, operation=markForRemoval, when=2024-03-07T14:42:06.362Z[UTC], who=prateek}",
+        "hostName": "flamingo-preprod-load-balancer-02392.node.ad2.r1",
+        "hostType": "x5.enclave4-72",
+        "maxVnic": 2147483647,
+        "allocatedVnic": 155,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.73.66",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 400000,
+                "allocatedCapacity": 23392
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 155
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1729NM18YK",
+        "hostAndPort": "flamingo-preprod-load-balancer-02471.node.ad2.r1:12000",
+        "substrateIp": "10.241.61.130",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-2",
+        "allocated": 0,
+        "newCapacity": 240000,
+        "newAllocated": 0,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=newlyingesteddonotuse, operation=markForRemoval, when=2024-03-11T05:01:27.870Z[UTC], who=weishyan}",
+        "hostName": "flamingo-preprod-load-balancer-02471.node.ad2.r1",
+        "hostType": "x5.enclave4-72",
+        "maxVnic": 126,
+        "allocatedVnic": 0,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.61.130",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 0
+              },
+              "vnicCapacity": {
+                "maxCapacity": 126,
+                "allocatedCapacity": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1729NM18YM",
+        "hostAndPort": "flamingo-preprod-load-balancer-02404.node.ad2.r1:12000",
+        "substrateIp": "10.241.61.194",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-2",
+        "allocated": 31140,
+        "newCapacity": 500000,
+        "newAllocated": 31140,
+        "capacity": 240000,
+        "markedForRemoval": false,
+        "state": "UP",
+        "removalDetails": "{why=no capacity issue, operation=unmarkForRemoval, when=2024-03-01T04:12:56.323Z[UTC], who=varigela}",
+        "hostName": "flamingo-preprod-load-balancer-02404.node.ad2.r1",
+        "hostType": "x5.enclave4-72",
+        "maxVnic": 126,
+        "allocatedVnic": 213,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.61.194",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 900000,
+                "allocatedCapacity": 31140
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 213
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2223XLR1EW",
+        "hostAndPort": "flamingo-preprod-load-balancer-02414.node.ad2.r1:12000",
+        "substrateIp": "10.241.225.194",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-2",
+        "allocated": 12196,
+        "newCapacity": 240000,
+        "newAllocated": 12196,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=ODO issues, operation=markForRemoval, when=2024-03-05T21:22:00.060Z[UTC], who=dgahlot}",
+        "hostName": "flamingo-preprod-load-balancer-02414.node.ad2.r1",
+        "hostType": "e4.enclave1-256",
+        "maxVnic": 126,
+        "allocatedVnic": 83,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.225.194",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 12196
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 83
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2223XLR1FM",
+        "hostAndPort": "flamingo-preprod-load-balancer-02416.node.ad2.r1:12000",
+        "substrateIp": "10.241.230.130",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-2",
+        "allocated": 14892,
+        "newCapacity": 240000,
+        "newAllocated": 14892,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=not ipv6 ready, operation=markForRemoval, when=2024-03-25T20:15:21.376Z[UTC], who=sthorup}",
+        "hostName": "flamingo-preprod-load-balancer-02416.node.ad2.r1",
+        "hostType": "e4.enclave1-256",
+        "maxVnic": 126,
+        "allocatedVnic": 69,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.230.130",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 1050000,
+                "allocatedCapacity": 14892
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 69
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2223XLR1FU",
+        "hostAndPort": "flamingo-preprod-load-balancer-02415.node.ad2.r1:12000",
+        "substrateIp": "10.241.229.66",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-2",
+        "allocated": 3148,
+        "newCapacity": 500000,
+        "newAllocated": 3148,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=not ipv6 ready, operation=markForRemoval, when=2024-03-25T20:15:39.549Z[UTC], who=sthorup}",
+        "hostName": "flamingo-preprod-load-balancer-02415.node.ad2.r1",
+        "hostType": "e4.enclave1-256",
+        "maxVnic": 126,
+        "allocatedVnic": 12,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.229.66",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 900000,
+                "allocatedCapacity": 3148
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 12
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02400.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02400.node.ad2.r1:12000",
+        "substrateIp": "10.241.60.7",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-2",
+        "allocated": 6796,
+        "newCapacity": 240000,
+        "newAllocated": 6796,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=testing: LB creation failing, operation=markForRemoval, when=2024-02-28T06:15:56.647Z[UTC], who=nabharas}",
+        "hostName": "flamingo-preprod-load-balancer-02400.node.ad2.r1",
+        "hostType": "x5.enclave4-08",
+        "maxVnic": 126,
+        "allocatedVnic": 28,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.60.7",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 6796
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 28
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02413.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02413.node.ad2.r1:12000",
+        "substrateIp": "10.241.14.131",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-1",
+        "allocated": 21444,
+        "newCapacity": 240000,
+        "newAllocated": 21444,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=testing - host may be unreliable, operation=markForRemoval, when=2024-02-22T22:18:30.979Z[UTC], who=sthorup}",
+        "hostName": "flamingo-preprod-load-balancer-02413.node.ad2.r1",
+        "hostType": "e4.enclave1-16",
+        "maxVnic": 126,
+        "allocatedVnic": 155,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.14.131",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 900000,
+                "allocatedCapacity": 21444
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 155
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02450.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02450.node.ad2.r1:12000",
+        "substrateIp": "10.241.140.135",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 100,
+        "newCapacity": 240000,
+        "newAllocated": 100,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=ipv6 testing, operation=markForRemoval, when=2024-03-14T18:15:22.098Z[UTC], who=ravarana}",
+        "hostName": "flamingo-preprod-load-balancer-02450.node.ad2.r1",
+        "hostType": "e4.enclave1-48",
+        "maxVnic": 126,
+        "allocatedVnic": 1,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.140.135",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 100
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02453.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02453.node.ad2.r1:12000",
+        "substrateIp": "10.241.252.203",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-1",
+        "allocated": 4196,
+        "newCapacity": 240000,
+        "newAllocated": 4196,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=seeing 5xx error while creating lb, operation=markForRemoval, when=2024-02-29T18:26:01.845Z[UTC], who=varigela}",
+        "hostName": "flamingo-preprod-load-balancer-02453.node.ad2.r1",
+        "hostType": "e4.enclave1-48",
+        "maxVnic": 126,
+        "allocatedVnic": 2,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.252.203",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 4196
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02458.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02458.node.ad2.r1:12000",
+        "substrateIp": "10.242.49.133",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 0,
+        "newCapacity": 240000,
+        "newAllocated": 0,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=newly ingested host, operation=markForRemoval, when=2024-02-02T18:15:53.820Z[UTC], who=weisyang}",
+        "hostName": "flamingo-preprod-load-balancer-02458.node.ad2.r1",
+        "hostType": "e4.enclave1-48",
+        "maxVnic": 126,
+        "allocatedVnic": 0,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.242.49.133",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 0
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02460.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02460.node.ad2.r1:12000",
+        "substrateIp": "10.242.55.131",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 14148,
+        "newCapacity": 240000,
+        "newAllocated": 14148,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=ODO issues, operation=markForRemoval, when=2024-03-05T21:21:22.071Z[UTC], who=dgahlot}",
+        "hostName": "flamingo-preprod-load-balancer-02460.node.ad2.r1",
+        "hostType": "e4.enclave1-48",
+        "maxVnic": 126,
+        "allocatedVnic": 122,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.242.55.131",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 14148
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 122
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02461.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02461.node.ad2.r1:12000",
+        "substrateIp": "10.242.43.204",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 4400,
+        "newCapacity": 240000,
+        "newAllocated": 4400,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=IPV6 testing, operation=markForRemoval, when=2024-03-07T14:40:55.398Z[UTC], who=prateek}",
+        "hostName": "flamingo-preprod-load-balancer-02461.node.ad2.r1",
+        "hostType": "e4.enclave1-16",
+        "maxVnic": 126,
+        "allocatedVnic": 44,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.242.43.204",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 4400
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 44
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02462.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02462.node.ad2.r1:12000",
+        "substrateIp": "10.242.54.71",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 15300,
+        "newCapacity": 240000,
+        "newAllocated": 15300,
+        "capacity": 240000,
+        "markedForRemoval": false,
+        "state": "UP",
+        "removalDetails": "{why=IPV6 testing, operation=unmarkForRemoval, when=2024-03-07T14:41:49.082Z[UTC], who=prateek}",
+        "hostName": "flamingo-preprod-load-balancer-02462.node.ad2.r1",
+        "hostType": "e4.enclave1-16",
+        "maxVnic": 126,
+        "allocatedVnic": 153,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.242.54.71",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 15300
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 153
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02463.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02463.node.ad2.r1:12000",
+        "substrateIp": "10.242.54.72",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 3748,
+        "newCapacity": 240000,
+        "newAllocated": 3748,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=IPV6 testing, operation=markForRemoval, when=2024-03-07T14:40:44.207Z[UTC], who=prateek}",
+        "hostName": "flamingo-preprod-load-balancer-02463.node.ad2.r1",
+        "hostType": "e4.enclave1-16",
+        "maxVnic": 126,
+        "allocatedVnic": 18,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.242.54.72",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 3748
+              },
+              "vnicCapacity": {
+                "maxCapacity": 1000,
+                "allocatedCapacity": 18
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02465.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02465.node.ad2.r1:12000",
+        "substrateIp": "10.242.46.198",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 0,
+        "newCapacity": 240000,
+        "newAllocated": 0,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=testing: LB creation failing, operation=markForRemoval, when=2024-02-28T02:29:49.875Z[UTC], who=nabharas}",
+        "hostName": "flamingo-preprod-load-balancer-02465.node.ad2.r1",
+        "hostType": "e4.enclave1-48",
+        "maxVnic": 126,
+        "allocatedVnic": 0,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.242.46.198",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 0
+              },
+              "vnicCapacity": {
+                "maxCapacity": 126,
+                "allocatedCapacity": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02466.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02466.node.ad2.r1:12000",
+        "substrateIp": "10.241.249.67",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-1",
+        "allocated": 2048,
+        "newCapacity": 240000,
+        "newAllocated": 2048,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=testing ipv6, operation=markForRemoval, when=2024-03-06T03:39:58.481Z[UTC], who=sthorup}",
+        "hostName": "flamingo-preprod-load-balancer-02466.node.ad2.r1",
+        "hostType": "e4.enclave1-16",
+        "maxVnic": 126,
+        "allocatedVnic": 1,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.241.249.67",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 2048
+              },
+              "vnicCapacity": {
+                "maxCapacity": 126,
+                "allocatedCapacity": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02467.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02467.node.ad2.r1:12000",
+        "substrateIp": "10.242.55.81",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 0,
+        "newCapacity": 240000,
+        "newAllocated": 0,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=newlyingesteddonotuse, operation=markForRemoval, when=2024-03-10T06:44:11.869Z[UTC], who=weishyan}",
+        "hostName": "flamingo-preprod-load-balancer-02467.node.ad2.r1",
+        "hostType": "e4.enclave1-04",
+        "maxVnic": 126,
+        "allocatedVnic": 0,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.242.55.81",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 0
+              },
+              "vnicCapacity": {
+                "maxCapacity": 126,
+                "allocatedCapacity": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02468.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02468.node.ad2.r1:12000",
+        "substrateIp": "10.242.46.196",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 0,
+        "newCapacity": 240000,
+        "newAllocated": 0,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=newlyingesteddonotuse, operation=markForRemoval, when=2024-03-10T21:46:25.639Z[UTC], who=weishyan}",
+        "hostName": "flamingo-preprod-load-balancer-02468.node.ad2.r1",
+        "hostType": "e4.enclave1-02",
+        "maxVnic": 126,
+        "allocatedVnic": 0,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.242.46.196",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 0
+              },
+              "vnicCapacity": {
+                "maxCapacity": 126,
+                "allocatedCapacity": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02469.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02469.node.ad2.r1:12000",
+        "substrateIp": "10.242.49.136",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 0,
+        "newCapacity": 240000,
+        "newAllocated": 0,
+        "capacity": 240000,
+        "markedForRemoval": true,
+        "state": "UP",
+        "removalDetails": "{why=newlyingesteddonotuse, operation=markForRemoval, when=2024-03-10T23:57:17.334Z[UTC], who=weishyan}",
+        "hostName": "flamingo-preprod-load-balancer-02469.node.ad2.r1",
+        "hostType": "e4.enclave1-02",
+        "maxVnic": 126,
+        "allocatedVnic": 0,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.242.49.136",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 0
+              },
+              "vnicCapacity": {
+                "maxCapacity": 126,
+                "allocatedCapacity": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "FLAMINGO-PREPROD-LOAD-BALANCER-02472.AD2",
+        "hostAndPort": "flamingo-preprod-load-balancer-02472.node.ad2.r1:12000",
+        "substrateIp": "10.242.58.133",
+        "availabilityDomain": "ad2",
+        "faultDomain": "FAULT-DOMAIN-0",
+        "allocated": 2048,
+        "newCapacity": 240000,
+        "newAllocated": 2048,
+        "capacity": 240000,
+        "markedForRemoval": false,
+        "state": "UP",
+        "hostName": "flamingo-preprod-load-balancer-02472.node.ad2.r1",
+        "hostType": "e4.enclave1-48",
+        "maxVnic": 126,
+        "allocatedVnic": 1,
+        "nicStates": [
+          {
+            "nicIndex": 0,
+            "nicName": "$default",
+            "substrateIp": "10.242.58.133",
+            "nicCapacity": {
+              "bandwidthCapacity": {
+                "maxCapacity": 240000,
+                "allocatedCapacity": 2048
+              },
+              "vnicCapacity": {
+                "maxCapacity": 126,
+                "allocatedCapacity": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  

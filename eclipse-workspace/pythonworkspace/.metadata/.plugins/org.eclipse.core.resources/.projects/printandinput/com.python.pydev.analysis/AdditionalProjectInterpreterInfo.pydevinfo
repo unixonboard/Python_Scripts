@@ -1,0 +1,20 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/Users/thnanda/eclipse-workspace/pythonworkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/printandinput/com.python.pydev.analysis/v2_indexcache
+inputfun|1707418793270932819|/Users/thnanda/eclipse-workspace/pythonworkspace/printandinput/inputfun.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=/Users/thnanda/eclipse-workspace/pythonworkspace/printandinput/inputfun.py
+2=inputfun
+-- END DICTIONARY
+-- START TREE 1
+4
+c|1|c!1^23#1*19@
+p|1|p!1^19#1*19@
+top|1|toppings!1^16#1*19@
+x|1|x!1^20#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

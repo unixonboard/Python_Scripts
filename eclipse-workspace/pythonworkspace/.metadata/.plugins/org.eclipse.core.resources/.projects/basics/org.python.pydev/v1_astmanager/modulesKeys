@@ -1,0 +1,17 @@
+MODULES_MANAGER_V3
+bytesandareys|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/bytesandareys.py
+dicttype|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/dicttype.py
+escapechar|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/escapechar.py
+hello|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/hello.py
+immutable|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/immutable.py
+listtype|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/listtype.py
+nonetype|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/nonetype.py
+numerictypes|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/numerictypes.py
+projects.__init__|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects|^
+projects.operator|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects/operator.py
+projects.patients|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects/patients.py
+projects.students|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects/students.py
+rangetype|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/rangetype.py
+settype|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/settype.py
+stringtype|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/stringtype.py
+tupple|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/tupple.py

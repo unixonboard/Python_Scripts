@@ -1,0 +1,9 @@
+print("\x1bc")
+id=10
+firstname="john"
+lastname="bailey"
+ssn="123-45-6789"
+hasInsurance=True
+billingAmount="10000"
+billingAmount=float(billingAmount)
+print(id,firstname,lastname,ssn,hasInsurance,billingAmount,ssn[7:len(ssn)])

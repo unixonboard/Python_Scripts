@@ -1,0 +1,84 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/Users/thnanda/eclipse-workspace/pythonworkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/basics/com.python.pydev.analysis/v2_indexcache
+stringtype|1706993292598970845|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/stringtype.py
+settype|1707082046781273554|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/settype.py
+bytesandareys|1707001797198920116|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/bytesandareys.py
+tupple|1706994575078135512|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/tupple.py
+projects.operator|1707085882756616812|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects/operator.py
+immutable|1707013601115388646|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/immutable.py
+numerictypes|1706977572973226177|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/numerictypes.py
+projects.students|1707077501436611287|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects/students.py
+escapechar|1707082568342522089|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/escapechar.py
+projects.patients|1707014929397061467|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects/patients.py
+rangetype|1707001702849696000|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/rangetype.py
+hello|1706796144405690907|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/hello.py
+listtype|1707081968719400545|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/listtype.py
+dicttype|1707002438786649837|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/dicttype.py
+projects.__init__|1707085628356800499|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects|^|0
+nonetype|1707082406820422421|/Users/thnanda/eclipse-workspace/pythonworkspace/basics/nonetype.py
+-- END DISKCACHE
+-- START DICTIONARY
+22
+4=stringtype
+5=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/nonetype.py
+19=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/rangetype.py
+22=settype
+8=bytesandareys
+15=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects/students.py
+17=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/tupple.py
+18=tupple
+11=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects/operator.py
+12=projects.operator
+2=numerictypes
+16=projects.students
+21=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/settype.py
+3=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/stringtype.py
+10=projects.patients
+20=rangetype
+7=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/bytesandareys.py
+9=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/projects/patients.py
+13=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/dicttype.py
+14=dicttype
+6=nonetype
+1=/Users/thnanda/eclipse-workspace/pythonworkspace/basics/numerictypes.py
+-- END DICTIONARY
+-- START TREE 1
+33
+a|3|a!1^2#1*19@a!3^33#1*35@a!5^1#1*51@
+b|3|b!7^3#1*67@b!3^34#1*35@b!1^3#1*19@
+bil|1|billingAmount!9^7#1*83@
+bmi|1|bmi!11^8#1*99@
+c|2|c!1^4#1*19@c!3^35#1*35@
+d|2|d!1^11#1*19@d!3^36#1*35@
+dic|1|dict1!13^1#1*115@
+e|1|e!1^15#1*19@
+f|1|f!1^18#1*19@
+fir|1|firstname!9^3#1*83@
+g|1|g!1^21#1*19@
+giv|0|
+h|1|h!1^24#1*19@
+has|1|hasInsurance!9^6#1*83@
+hei|2|height!11^1#1*99@heigthInMeters!11^6#1*99@
+id|1|id!9^2#1*83@
+ind|0|
+inp|0|
+k|1|k!13^8#1*115@
+key|1|keys!15^2#1*131@
+las|1|lastname!9^4#1*83@
+lst|2|lst!17^10#1*147@lst!7^1#1*67@
+m1|1|m1!5^4#5*50@
+r|1|r!19^1#1*163@
+s|1|s!21^17#1*179@
+ssn|1|ssn!9^5#1*83@
+stu|1|students!15^1#1*131@
+tpl|2|tpl!17^1#1*147@tpl1!17^12#1*147@
+v|1|v!13^17#1*115@
+wei|1|weight!11^2#1*99@
+x|1|x!1^7#1*19@
+y|1|y!1^8#1*19@
+z|1|z!1^9#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

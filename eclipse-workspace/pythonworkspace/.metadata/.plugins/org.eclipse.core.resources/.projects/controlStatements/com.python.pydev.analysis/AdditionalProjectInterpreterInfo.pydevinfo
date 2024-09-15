@@ -1,0 +1,30 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/Users/thnanda/eclipse-workspace/pythonworkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/controlStatements/com.python.pydev.analysis/v2_indexcache
+forloop|1707707486820858091|/Users/thnanda/eclipse-workspace/pythonworkspace/controlStatements/forloop.py
+productoflist|1707710160968913081|/Users/thnanda/eclipse-workspace/pythonworkspace/controlStatements/productoflist.py
+employeinfo|1707967558843687253|/Users/thnanda/eclipse-workspace/pythonworkspace/controlStatements/employeinfo.py
+evenporodd|1707600648837802226|/Users/thnanda/eclipse-workspace/pythonworkspace/controlStatements/evenporodd.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+3=/Users/thnanda/eclipse-workspace/pythonworkspace/controlStatements/productoflist.py
+4=productoflist
+5=/Users/thnanda/eclipse-workspace/pythonworkspace/controlStatements/evenporodd.py
+2=employeinfo
+1=/Users/thnanda/eclipse-workspace/pythonworkspace/controlStatements/employeinfo.py
+6=evenporodd
+-- END DICTIONARY
+-- START TREE 1
+7
+emp|1|employee!1^2#1*19@
+lst|1|lst!3^1#1*35@
+n|1|n!1^1#1*19@
+nam|1|name!1^5#5*19@
+pro|1|prod!3^2#1*35@
+sal|1|salary!1^6#5*19@
+x|1|x!5^1#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

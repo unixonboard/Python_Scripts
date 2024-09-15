@@ -1,0 +1,30 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/Users/thnanda/eclipse-workspace/pythonworkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/listcomprehension/com.python.pydev.analysis/v2_indexcache
+cubesofnumbers|1709785715344116664|/Users/thnanda/eclipse-workspace/pythonworkspace/listcomprehension/cubesofnumbers.py
+productoflist|1709786955345749541|/Users/thnanda/eclipse-workspace/pythonworkspace/listcomprehension/productoflist.py
+commomelements|1709787129201708212|/Users/thnanda/eclipse-workspace/pythonworkspace/listcomprehension/commomelements.py
+evennumbers|1709786235394678579|/Users/thnanda/eclipse-workspace/pythonworkspace/listcomprehension/evennumbers.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+1=/Users/thnanda/eclipse-workspace/pythonworkspace/listcomprehension/productoflist.py
+6=cubesofnumbers
+3=/Users/thnanda/eclipse-workspace/pythonworkspace/listcomprehension/commomelements.py
+2=productoflist
+4=commomelements
+8=evennumbers
+5=/Users/thnanda/eclipse-workspace/pythonworkspace/listcomprehension/cubesofnumbers.py
+7=/Users/thnanda/eclipse-workspace/pythonworkspace/listcomprehension/evennumbers.py
+-- END DICTIONARY
+-- START TREE 1
+5
+a|2|a!1^1#1*19@a!3^1#1*35@
+b|2|b!1^2#1*19@b!3^2#1*35@
+lst|2|lst!5^8#1*51@lst!7^4#1*67@
+res|1|result!3^3#1*35@
+z|1|z!1^4#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

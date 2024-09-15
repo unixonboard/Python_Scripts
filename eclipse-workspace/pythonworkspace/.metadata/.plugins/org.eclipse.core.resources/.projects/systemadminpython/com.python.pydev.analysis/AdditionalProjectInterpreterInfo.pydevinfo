@@ -1,0 +1,19 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/Users/thnanda/eclipse-workspace/pythonworkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/systemadminpython/com.python.pydev.analysis/v2_indexcache
+age|1709864482109277154|/Users/thnanda/eclipse-workspace/pythonworkspace/systemadminpython/age.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=/Users/thnanda/eclipse-workspace/pythonworkspace/systemadminpython/age.py
+2=age
+-- END DICTIONARY
+-- START TREE 1
+3
+age|1|age!1^5#1*19@
+bir|1|birthdate!1^4#1*19@
+nam|1|name!1^3#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
